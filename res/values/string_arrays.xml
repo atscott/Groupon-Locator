@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="groupon_categories">
+        <item>All</item>
+        <item>Arts and Entertainment</item>
+        <item>Automotive</item>
+        <item>Beauty &amp; Spas</item>
+        <item>Education</item>
+        <item>Financial Services</item>
+        <item>Food &amp; Drink</item>
+        <item>Health &amp; Fitness</item>
+        <item>Home Services</item>
+        <item>Legal Services</item>
+        <item>Nightlife</item>
+        <item>Pets</item>
+        <item>Professional Services</item>
+        <item>Public Services &amp; Government</item>
+        <item>Real Estate</item>
+        <item>Religious Organizations</item>
+        <item>Restaurants</item>
+        <item>Shopping</item>
+        <item>Travel</item>
+    </array>
+</resources>

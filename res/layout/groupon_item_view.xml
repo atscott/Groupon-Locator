@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dip" >
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Deal: "
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="10dp"/>
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/dealText"
+            android:text="Merchant: "
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="10dp"/>
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/merchantText"
+            android:text="Sold: "
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="10dp"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignLeft="@+id/textView1"/>
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance: "
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="10dp"
+            android:layout_alignTop="@+id/soldText"
+            android:layout_marginLeft="10dp" android:layout_alignParentRight="false"
+            android:layout_alignParentLeft="false" android:layout_toRightOf="@+id/soldText"/>
+
+    <TextView
+            android:id="@+id/soldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:text="TextView" android:textSize="10dp"
+            android:layout_toRightOf="@+id/textView1"/>
+
+    <TextView
+            android:id="@+id/distanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:text="TextView" android:textSize="10dp"
+            android:layout_alignParentRight="false" android:layout_toRightOf="@+id/textView4"/>
+
+    <TextView
+            android:id="@+id/merchantText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="TextView" android:textSize="10dp"
+            android:layout_alignTop="@+id/textView2"/>
+
+    <TextView
+            android:id="@+id/dealText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textView1"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/refreshButton"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/refresh"
+                android:contentDescription="Refresh Groupons"
+                android:scaleType="centerInside"/>
+
+        <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/settingsButton"
+                android:layout_alignParentLeft="false"
+                android:layout_marginLeft="149dp"
+                android:layout_alignTop="@+id/refreshButton"
+                android:layout_toLeftOf="@+id/refreshButton"
+                android:src="@drawable/settings"
+                android:scaleType="fitCenter"
+                android:contentDescription="Settings"/>
+    </RelativeLayout>
+
+    <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.MapFragment"/>
+
+</LinearLayout>
+

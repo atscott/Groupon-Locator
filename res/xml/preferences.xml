@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+            android:key="use_custom_location"
+            android:title="@string/custom_location"
+            android:summary="@string/custom_location_summ"
+            android:defaultValue="false"
+            android:persistent="true"/>
+    <EditTextPreference
+            android:key="custom_address"
+            android:title="@string/address"
+            android:summary="Address to use when searching for nearby Groupons"
+            android:defaultValue=""
+            android:persistent="true"/>
+    <EditTextPreference
+            android:key="radius"
+            android:title="@string/radius"
+            android:summary="Radius in miles from search origin to look for Groupons"
+            android:defaultValue="10"
+            android:persistent="true"/>
+    <ListPreference
+            android:key="category_filter"
+            android:title="Category"
+            android:summary="Filter results by category"
+            android:defaultValue="All"
+            android:entries="@array/groupon_categories"
+            android:entryValues="@array/groupon_categories"/>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GrouponLocater</string>
+    <string name="custom_location">Use Custom Location</string>
+    <string name="custom_location_summ">Search for Groupons near the defined address rather than your current
+        location.
+    </string>
+    <string name="address">Address</string>
+    <string name="radius">Radius</string>
+</resources>
